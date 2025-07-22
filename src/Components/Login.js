@@ -8,7 +8,7 @@ const Login = ({ setUser }) => {
 
   const handleLogin = async () => {
     try {
-      const res = await fetch('https://mvp-backend.onrender.com/api/login', {
+      const res = await fetch('https://mvp-backend-te87.onrender.com/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -28,7 +28,7 @@ const Login = ({ setUser }) => {
 
   const handleRegister = async () => {
     try {
-      const res = await fetch('https://mvp-backend.onrender.com/api/register', {
+      const res = await fetch('https://mvp-backend-te87.onrender.com/api/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password }),

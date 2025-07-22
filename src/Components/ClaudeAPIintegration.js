@@ -59,7 +59,7 @@ const handleClaudeSpatialQuery = async () => {
  const timeout = setTimeout(() => controller.abort(), 120000); // 10 seconds
  // Abort after 10 sec
     try {
-      const res = await fetch("https://mvp-backend.onrender.com/api/claude_spatial", {
+      const res = await fetch("https://mvp-backend-te87.onrender.com/api/claude_spatial", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
