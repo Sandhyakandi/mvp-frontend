@@ -1,0 +1,17 @@
+{
+    "conversation": [
+      { "id": 1, "question": "What is the development potential of this area?", "answer": "This area has high growth potential due to zoning and proximity to infrastructure." }
+    ],
+    "quickPrompts": [
+      "Find optimal retail location",
+      "Evaluate development potential",
+      "List nearby amenities",
+      "Get zoning information"
+    ],
+    "followUps": [
+      "What are the top 3 risks?",
+      "Show historical land use trends",
+      "Suggest similar locations nearby"
+    ]
+  }
+  
